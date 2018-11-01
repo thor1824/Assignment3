@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane2" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.VI.MoveCalculator2Controller">
+   <children>
+      <Label layoutX="194.0" layoutY="127.0" prefHeight="17.0" prefWidth="100.0" text="+ sin(             )">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="124.0" text=".">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="d1" layoutX="288.0" layoutY="123.0" prefHeight="25.0" prefWidth="37.0" text="d">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="155.0" layoutY="123.0" prefHeight="25.0" prefWidth="37.0" text="x0" fx:id="x0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="v1" layoutX="230.0" layoutY="123.0" prefHeight="25.0" prefWidth="37.0" text="v">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="325.0" layoutY="127.0" text="=">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="179.0" prefHeight="17.0" prefWidth="100.0" text="+ cos(            )">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="176.0" text=".">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="d2" layoutX="288.0" layoutY="175.0" prefHeight="25.0" prefWidth="37.0" text="d">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="y0" layoutX="155.0" layoutY="175.0" prefHeight="25.0" prefWidth="37.0" text="y0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="v2" layoutX="231.0" layoutY="175.0" prefHeight="25.0" prefWidth="37.0" text="v">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="325.0" layoutY="179.0" text="=">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="334.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" width="37.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="29.0" layoutX="336.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="37.0" />
+      <Label fx:id="lblX" layoutX="345.0" layoutY="128.0" text="x">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblY" layoutX="344.0" layoutY="179.0" text="y">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="30.0" prefHeight="35.0" prefWidth="154.0" text="somthing else">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="bCal2" layoutX="439.0" layoutY="124.0" mnemonicParsing="false" onAction="#calClick2" text="Calculate " />
+      <Button fx:id="switchs" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchClick" text="Switch" />
+   </children>
+</AnchorPane>

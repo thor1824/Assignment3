@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.rest.TextSolverController">
+   <children>
+      <TextField fx:id="name" layoutX="93.0" layoutY="94.0" prefHeight="25.0" prefWidth="207.0" />
+      <ComboBox fx:id="comboText" layoutX="349.0" layoutY="94.0" onAction="#format" prefWidth="150.0" promptText="Fomat Method" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="38.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="462.0" />
+      <Label fx:id="lblResult" alignment="TOP_LEFT" layoutX="53.0" layoutY="168.0" prefHeight="168.0" prefWidth="431.0" textFill="WHITE" />
+      <Label layoutX="37.0" layoutY="98.0" text="Name:" />
+      <Label layoutX="242.0" layoutY="14.0" text="Text Solver">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
